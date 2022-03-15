@@ -6,14 +6,8 @@
       "source": "builtin",
       "dependencies": {}
     },
-    "com.unity.2d.tilemap": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
     "com.unity.ads": {
-      "version": "3.7.5",
+      "version": "4.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
