@@ -16,8 +16,10 @@ public class ChooseGameNum : MonoBehaviour
 
     public void IncreaseGameNum()
     {
-        gameNum += 1;
-        Debug.Log(gameNum);
+        if(gameNum < 5)
+        {
+            gameNum += 1;
+        }
 
     }
 
@@ -26,7 +28,6 @@ public class ChooseGameNum : MonoBehaviour
         if (gameNum > 1)
         {
             gameNum -= 1;
-            Debug.Log(gameNum);
         }
 
 

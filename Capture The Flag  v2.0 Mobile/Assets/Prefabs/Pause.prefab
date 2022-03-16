@@ -515,6 +515,7 @@ GameObject:
   - component: {fileID: 2934782114655473906}
   - component: {fileID: 2934782114655473909}
   - component: {fileID: 431464714918724548}
+  - component: {fileID: 7732446493265301505}
   m_Layer: 5
   m_Name: Pause
   m_TagString: Untagged
@@ -618,6 +619,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1715800845876667113}
   joysticks: {fileID: 0}
+--- !u!95 &7732446493265301505
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2934782114655473908}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 47c5f98606b6a4c41b91bc10a6f58b8a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2934782114876960133
 GameObject:
   m_ObjectHideFlags: 0
